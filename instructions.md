@@ -1,0 +1,13 @@
+## Register provider
+
+Start by registering the provider inside `start/app.js` file.
+
+```js
+const providers = [
+  'adonis-datagrid/providers/DataGridProvider'
+]
+```
+
+## Config
+
+The config file has been saved inside `config/dataGrid.js` file. Feel free to tweak it accordingly.
